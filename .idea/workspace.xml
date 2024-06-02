@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7be52744-9504-4b05-917f-1b9e8602083f" name="Changes" comment="Added necessary maven dependencies for the beginning of development.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e6730ecd-9b7b-4bf6-81fe-06dbbbbd8425" name="Changes" comment="Updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/RenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/RenterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +17,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="SequenceDiagram UML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ErgiHyska&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6ce9ac40-5fde-43d4-829c-68171e0288f3" />
+        <option name="url" value="https://github.com/ErgiHyska/vehicool-temp" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,10 +56,9 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2gBOyzPm5Df23E2UO2K17v2uVoH" />
+  <component name="ProjectId" id="2gBqW4XHTqbUEkTBXqHocfg5Ttn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,11 +75,15 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ergih/Desktop/BackEnd of vehicool/VehicoolBackend/src/main/resources",
+    "last_opened_file_path": "C:/Users/ergih/Desktop/vehicool-temp/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -71,11 +94,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ergih\Desktop\BackEnd of vehicool\VehicoolBackend\src\main\resources" />
+      <recent name="C:\Users\ergih\Desktop\vehicool-temp\src\main\resources" />
+      <recent name="C:\Users\ergih\Desktop\vehicool-temp\src\main\java\com\vehicool\vehicool\security" />
+      <recent name="C:\Users\ergih\Desktop\vehicool-temp\src\main\java\com\vehicool\vehicool" />
+      <recent name="C:\Users\ergih\Desktop\New folder (3)\src\main\java\com\vehicool\vehicool\business\querydsl" />
+      <recent name="C:\Users\ergih\Desktop\New folder (3)\src\main\java\com\vehicool\vehicool\business\service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.vehicool.vehicool.persistence.entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vehicool.vehicool.business.service" />
+      <recent name="com.vehicool.vehicool.api.controller" />
+      <recent name="com.vehicool.vehicool.api.dto" />
+      <recent name="com.vehicool.vehicool.persistence.repository" />
+      <recent name="com.vehicool.vehicool.persistence.entity" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="VehicoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="vehicool" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vehicool.vehicool.VehicoolApplication" />
       <method v="2">
@@ -86,41 +124,404 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7be52744-9504-4b05-917f-1b9e8602083f" name="Changes" comment="" />
-      <created>1715167772148</created>
+      <changelist id="e6730ecd-9b7b-4bf6-81fe-06dbbbbd8425" name="Changes" comment="" />
+      <created>1715181347800</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715167772148</updated>
-      <workItem from="1715167773963" duration="5251000" />
-      <workItem from="1715177913821" duration="39000" />
-      <workItem from="1715177967023" duration="800000" />
-      <workItem from="1715178837066" duration="1247000" />
+      <updated>1715181347800</updated>
+      <workItem from="1715181349466" duration="3333000" />
+      <workItem from="1715241758764" duration="28000" />
+      <workItem from="1715283174747" duration="606000" />
+      <workItem from="1715292092470" duration="2874000" />
+      <workItem from="1715331917518" duration="17000" />
+      <workItem from="1715364728756" duration="1201000" />
+      <workItem from="1715414351616" duration="10074000" />
+      <workItem from="1715498036012" duration="5833000" />
+      <workItem from="1715587287909" duration="8000" />
+      <workItem from="1715626361894" duration="1804000" />
+      <workItem from="1715708904339" duration="2885000" />
+      <workItem from="1715761927554" duration="968000" />
+      <workItem from="1715771729244" duration="3617000" />
+      <workItem from="1715847900198" duration="69000" />
+      <workItem from="1715850202733" duration="140000" />
+      <workItem from="1715850389540" duration="1363000" />
+      <workItem from="1715867280226" duration="870000" />
+      <workItem from="1715880275388" duration="5042000" />
+      <workItem from="1715891210569" duration="795000" />
+      <workItem from="1715895177669" duration="2821000" />
+      <workItem from="1715931148233" duration="934000" />
+      <workItem from="1715932367781" duration="381000" />
+      <workItem from="1715935242885" duration="37000" />
+      <workItem from="1715965924972" duration="2713000" />
+      <workItem from="1716029786156" duration="27685000" />
+      <workItem from="1716109577552" duration="35918000" />
+      <workItem from="1716163494783" duration="643000" />
+      <workItem from="1716196299685" duration="598000" />
+      <workItem from="1716236151177" duration="551000" />
+      <workItem from="1716363295935" duration="1587000" />
+      <workItem from="1716366901510" duration="2304000" />
+      <workItem from="1716391485187" duration="15649000" />
+      <workItem from="1716468997238" duration="13784000" />
+      <workItem from="1716570277155" duration="180000" />
+      <workItem from="1716570474382" duration="4048000" />
+      <workItem from="1716577638723" duration="7580000" />
+      <workItem from="1716623293832" duration="15680000" />
+      <workItem from="1716975126445" duration="14965000" />
+      <workItem from="1717236940673" duration="43002000" />
     </task>
-    <task id="LOCAL-00001" summary="Project initialization started.">
+    <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
-      <created>1715172753502</created>
+      <created>1715932745942</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1715172753502</updated>
+      <updated>1715932745942</updated>
     </task>
-    <task id="LOCAL-00002" summary="Project initialization started.">
+    <task id="LOCAL-00002" summary="Updated">
       <option name="closed" value="true" />
-      <created>1715178069396</created>
+      <created>1716038134686</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1715178069396</updated>
+      <updated>1716038134686</updated>
     </task>
-    <task id="LOCAL-00003" summary="Added necessary maven dependencies for the beginning of development.">
+    <task id="LOCAL-00003" summary="Updated">
       <option name="closed" value="true" />
-      <created>1715179494770</created>
+      <created>1716038658407</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1715179494770</updated>
+      <updated>1716038658407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716043725257</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716043725257</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716047328554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716047328554</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716053119599</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716053119599</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716056772928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716056772928</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716070798622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716070798622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716121945092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716121945092</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716133966666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716133966666</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716139513213</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716139513214</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716407969957</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716407969957</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716413406322</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716413406322</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716418864635</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716418864635</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716568855916</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716568855916</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716570817407</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716570817407</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716639978583</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716639978583</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716645025975</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716645025975</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1716645332884</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716645332884</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717007251582</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717007251582</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717182108366</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1717182108366</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717183141289</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1717183141289</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717185017825</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717185017825</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717185895024</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1717185895024</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717187212424</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1717187212424</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717188770715</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717188770715</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717192298983</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1717192298983</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717194499092</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1717194499092</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717197047912</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1717197047912</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717197426866</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1717197426866</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717198599868</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1717198599868</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717202637904</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1717202637904</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717205635034</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1717205635034</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717237874317</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1717237874317</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717250161165</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1717250161165</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717250584741</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1717250584741</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717252350260</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1717252350260</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717255601446</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1717255601446</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717261347865</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1717261347865</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717262126063</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1717262126063</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717267071280</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1717267071280</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717281787468</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1717281787468</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717286692387</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1717286692387</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1717294162581</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1717294162581</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,8 +539,148 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project initialization started." />
-    <MESSAGE value="Added necessary maven dependencies for the beginning of development." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added necessary maven dependencies for the beginning of development." />
+    <MESSAGE value="Test" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/business/service/VehicleService.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/business/service/VehicleService.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/business/service/VehicleService.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/auth/AuthenticationService.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/AdminController.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/security/user/UserController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>227</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>261</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/LenderController.java</url>
+          <line>262</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/VehicleController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/VehicleController.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/VehicleController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicool/vehicool/api/controller/VehicleController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
